@@ -21,5 +21,17 @@ obj = mohmal_api.mohmal_api()
 ```
 Then you can use the instance as shown in the examples/ folder.
 
+
+### UPDATE
+A class for [Tempmail](https://temp-mail.org/) has been added. It works similarly, to implement it in your script you just need to import it as follows:
+```python
+# -*- coding: utf-8 -*-
+
+import tempmail_api as tempmail_api
+
+obj = tempmail_api.tempmail_api()
+```
+Then you can use the instance as shown in the examples/ folder (just change mohmal_api in tempmail_api).
+
 ### DISCLAIMER
 This class was created to simplify the creation and management of a disposable mail address in a python script, please do not abuse it. Author assume no liability and are not responsible for any misuse or damage caused by this program.
